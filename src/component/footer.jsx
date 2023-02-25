@@ -1,11 +1,9 @@
 import React from "react";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import 'react-multi-carousel/lib/styles.css';
 
 import Container from 'react-bootstrap/Container';
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
