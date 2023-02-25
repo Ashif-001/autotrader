@@ -1,0 +1,840 @@
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    border-color: #222b5e;
+}
+
+
+
+
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+.bg {
+    width: 100%;
+    margin-right: 120px;
+    background-color: white;
+
+}
+
+hr {
+    margin-top: 0px !important;
+    padding-top: 0px;
+}
+
+.navbar-brand {
+    position: absolute;
+    width: 10%;
+}
+
+.logo {
+    width: 110%;
+    padding-right: 0px !important;
+    background-color: transparent !important;
+    margin-left: 10px;
+
+}
+
+.me-auto {
+    z-index: -1;
+    padding-top: 10px;
+    margin-left: 15%;
+    font-variation-settings: "wght" 500;
+}
+
+.a {
+    /* display: block; */
+    color: rgb(6, 6, 6) !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.a:active {
+    border-color: red;
+    color: red;
+}
+
+.top-nav:active {
+    color: red;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    /* p {
+        color: rgb(57, 230, 230);
+
+    } */
+
+    .top-nav {
+        background-color: rgb(255, 255, 255);
+        margin-left: 20px;
+        margin-bottom: 10px !important;
+        border: 1px solid rgb(196, 195, 195);
+        border-radius: 25px;
+        box-shadow: 0px 3px #ededf0;
+        padding: 3px 2px;
+    }
+
+    .pp {
+        margin-top: 10px !important;
+
+    }
+
+    .nav-brand {
+        position: absolute;
+        display: contents !important;
+
+    }
+
+    /* logo */
+    .navbar-brand {
+        display: none;
+        /* position: absolute;
+        width: 10%; */
+    }
+
+
+
+    .brand-btn {
+        width: 140px;
+    }
+
+
+    .collapse-btn {
+        width: 200px !important;
+        margin-left: 30% !important;
+    }
+
+
+    .girl-img {
+        display: none;
+    }
+
+    .viewMore-btn {
+        margin-left: 30% !important;
+    }
+
+    .advert {
+
+        border-radius: 5px !important;
+        width: 80% !important;
+
+
+    }
+
+    /* .advert-col1{
+         
+    } */
+
+}
+
+
+
+.top-nav {
+    margin-top: 0px !important;
+    color: rgb(6, 6, 6);
+    font-family: "ATVFabriga", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+}
+
+.pp {
+    font-weight: 450;
+    font-size: .75rem;
+    margin-left: 5px !important;
+    font-family: "ATVFabriga", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+}
+
+.login {
+    margin-top: 10px !important;
+    font-size: 14px;
+    margin-right: 10px !important;
+}
+
+.save {
+    border: none;
+    background-color: transparent;
+    padding: 0px;
+}
+
+
+.road-img {
+    position: absolute;
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    border-radius: 5px;
+    top: 100px;
+    left: 0px;
+    z-index: -1;
+    margin-top: 1%;
+}
+
+.search-card {
+    margin-top: 70px;
+    margin-left: 12%;
+}
+
+.postcode {
+    padding: 6px 0px 5px 4px;
+}
+
+.dropdown {
+    border: 0.5px solid;
+    margin-right: 10px;
+}
+
+#row2 {
+    margin-top: 10px;
+}
+
+#row3 {
+    margin-top: 10px;
+}
+
+.cash {
+    background-color: white;
+    border: 1px solid;
+    padding-right: 79px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.finance {
+    background-color: white;
+    border: 1px solid;
+    padding-right: 59px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#row4 {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.search-car {
+    border: 0px;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+    padding: 9px 69px;
+}
+
+.reset-btn {
+    color: blue;
+    margin-top: 5px;
+    background-color: transparent;
+    border: 0px;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.more-btn {
+    color: blue;
+    margin-top: 5px;
+    background-color: transparent;
+    border: 0px;
+    text-decoration: underline;
+    margin-left: 60px;
+}
+
+
+
+/* from practise */
+.img {
+    width: 70% !important;
+}
+
+.caro {
+    background-color: white;
+
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .tesla-col {
+        display: flexbox;
+        display: none !important;
+    }
+
+
+}
+
+
+.card-head {
+    text-align: center;
+    border: 1px solid rgb(198, 196, 196) !important;
+    padding-bottom: 10px;
+    width: 80%;
+
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+
+
+
+}
+
+.card1 {
+    background-color: white;
+    border: 1px solid rgb(214, 207, 207);
+    margin-left: 20px;
+    width: 80%;
+}
+
+.card1:hover {
+    cursor: pointer;
+    border: 1px solid rgb(150, 150, 239);
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.collapse-btn {
+    color: black !important;
+    margin-top: 20px;
+    padding-left: 0px !important;
+    background-color: white !important;
+    border: 0px solid !important;
+    width: 15%;
+    margin-left: 43%;
+    padding: 2px !important;
+}
+
+
+.collapse-btn:hover {
+    background-color: antiquewhite !important;
+}
+
+.card-txt {
+    padding: 0px !important;
+    font-size: 14px;
+}
+
+.brand-container {
+    row-gap: 10px !important;
+    column-gap: 10px !important;
+}
+
+.brand-btn {
+    background-color: white;
+    width: 200px;
+    padding: 7px 0px !important;
+    border-radius: 5px;
+    border: 1px solid rgb(190, 186, 186);
+    margin-top: 25px;
+}
+
+
+.brand-btn:hover {
+    border: 1px solid rgb(114, 77, 246);
+    color: rgb(114, 77, 246);
+}
+
+.newcar-brand-btn {
+    text-align: center;
+    background-color: white;
+    width: 250px;
+    padding: 7px 0px !important;
+    border-radius: 5px;
+    border: 1px solid rgb(190, 186, 186);
+    margin-top: 25px;
+}
+.newcar-brand-btn:hover {
+    border: 1px solid rgb(114, 77, 246);
+    color: rgb(114, 77, 246);
+}
+
+.electro {
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10% !important;
+}
+
+.give-col {
+    background-color: rgb(29, 23, 63);
+    margin-top: 20px !important;
+    padding-bottom: 25px;
+    height: 17rem;
+    max-width: 25% !important;
+}
+
+.give {
+    /* position: absolute; */
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 40%;
+
+}
+
+.mid {
+    background-color: rgb(241, 243, 245);
+    margin-top: 20px !important;
+    z-index: -1;
+    text-align: center;
+    height: 17rem;
+}
+
+.mid-btn {
+    color: white;
+    background-color: blue;
+    border: 0px;
+    border-radius: 3px;
+    padding: 7px 40px 7px 40px;
+    margin-top: 70px;
+
+}
+
+.tesla-col {
+    background-color: rgb(29, 23, 63);
+    color: white;
+    font-style: italic;
+
+    height: 18.3rem;
+    max-width: 25% !important;
+}
+
+.tesla {
+    position: absolute;
+    background-color: transparent;
+    width: 20%;
+    margin-top: 5%;
+
+
+}
+
+/* Car detail */
+.car-head {
+    width: 80% !important;
+    margin-left: 10% !important;
+    margin-bottom: 20px;
+    margin-top: 5%;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.Brand-detail {
+    background-color: white;
+
+}
+
+.car {
+    column-gap: 50px !important;
+
+}
+
+.card2 {
+    background-color: white;
+    border: 1px solid rgb(223, 223, 223);
+    /* height: 10%; */
+    width: 90%;
+}
+
+.card2:hover {
+    border: 1px solid rgb(67, 67, 195);
+}
+
+.car-detail {
+    font-size: 14px;
+    text-align: left;
+}
+
+.viewMore-btn {
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 45%;
+    border: 0px;
+    background-color: white;
+    text-decoration: 2px underline rgb(248, 194, 123);
+    /* margin-bottom: 20px; */
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+
+.viewMore-btn:hover {
+    background-color: antiquewhite;
+
+}
+
+.advert {
+    margin-top: 50px !important;
+    background-color: #222b5e;
+    width: 80%;
+    margin-left: 10% !important;
+    margin-bottom: 5%;
+    color: white;
+    padding-bottom: 10px;
+
+}
+
+.advert-col1 {
+
+    margin-left: 20px;
+}
+
+.girl-img {
+    position: absolute;
+    width: 38.1% !important;
+    height: 50.6%;
+    margin-left: 5px;
+}
+
+.advert-btn {
+    margin-top: 20px;
+    padding: 8px 30px 8px 10px;
+    color: blue;
+    border-radius: 3px;
+    border: 0px;
+
+}
+
+.manage-btn {
+    border: none;
+    margin-top: 10px;
+    padding: 8px 30px 8px 10px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+h5 {
+    margin-top: 20px !important;
+    font-size: 25px !important;
+
+}
+
+
+/* Discover EV Motors */
+
+#ev-header {
+    padding-top: 30px;
+    width: 80% !important;
+    padding-bottom: 30px;
+    border: 1px solid rgb(218, 215, 215);
+    padding-bottom: 50px !important;
+    margin-left: 10%;
+}
+
+
+
+.ev1 {
+    background-color: white;
+    width: 90%;
+    padding-bottom: 20px;
+    border: 1px solid rgb(184, 178, 178);
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+
+.ev1:hover {
+    border: 1px solid rgb(67, 35, 164);
+}
+
+.ev-img {
+    width: 65% !important;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+.ev1-txt {
+    font-size: 14px;
+    margin-top: 18px;
+}
+
+.ev2-txt {
+    font-size: 14px;
+    margin-top: 29px;
+}
+
+.ev3-txt {
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.ev4-txt {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+/* BUYING ESSENTIALS */
+
+.clip-head {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    border: 1px solid rgb(228, 229, 228) !important;
+    text-align: center !important;
+}
+
+.clip {
+    padding-bottom: 30px;
+    /* margin-left: 30px; */
+    text-align: center;
+}
+
+.clip-body {
+    font-weight: bold;
+    text-align: center;
+}
+
+.clip-txt {
+    font-size: 15px;
+}
+
+.clip1 {
+    background-color: white;
+    width: 90%;
+    border: 1px solid rgb(196, 195, 195);
+}
+
+.clip2 {
+    background-color: white;
+    width: 90%;
+    padding-bottom: 22px;
+    border: 1px solid rgb(196, 195, 195);
+}
+
+.clip3 {
+    background-color: white;
+    width: 90%;
+    padding-bottom: px;
+    border: 1px solid rgb(196, 195, 195);
+}
+
+.clip4 {
+    background-color: white;
+    width: 90%;
+    padding-bottom: px;
+    border: 1px solid rgb(196, 195, 195);
+
+}
+
+.clip-img {
+    max-width: 70% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.footer-row {
+    margin-top: 50px !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-bottom: 30px;
+}
+
+.footer-col1 {
+
+    margin-left: 15px;
+
+}
+
+.footer-logo {
+    width: 40%;
+    height: 15%;
+    padding-right: 0px !important;
+    background-color: transparent !important;
+    background-color: transparent;
+    padding-bottom: 20px;
+}
+
+.footer-btn {
+    border: 0px;
+    background-color: transparent;
+    font-size: 13px;
+    padding-bottom: 8px;
+    font-weight: 490;
+    text-align: left;
+}
+
+.cookies-btn {
+    border: 0px;
+    background-color: transparent;
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.mid-col {
+    margin-right: 100px;
+}
+
+
+.product-btn2 {
+    padding: 15px 201px 20px 10px;
+    border-top: 1px solid rgb(227, 223, 223);
+    border-bottom: 0px solid;
+    border-left: 4px solid transparent;
+    border-right: 0px;
+    background-color: transparent;
+    text-align: left;
+    width: 100%;
+}
+
+.product-btn2:hover {
+    border-left: 4px solid rgb(50, 50, 138);
+    color: rgb(50, 50, 138);
+}
+
+.buying-btn2 {
+    padding: 15px 244px 20px 10px;
+    border-top: 1px solid rgb(227, 223, 223);
+    border-bottom: 0px solid;
+    border-left: 4px solid transparent;
+    border-right: 0px;
+    background-color: transparent;
+    text-align: left;
+
+}
+
+.buying-btn2:hover {
+    border-left: 4px solid rgb(50, 50, 138);
+    color: rgb(50, 50, 138);
+}
+
+
+.quick-btn2 {
+    padding: 15px 251.5px 20px 10px;
+    border-top: 1px solid rgb(227, 223, 223);
+    border-bottom: 0px solid;
+    border-left: 4px solid transparent;
+    border-right: 0px;
+    background-color: transparent;
+    text-align: left;
+
+}
+
+.quick-btn2:hover {
+    border-left: 4px solid rgb(50, 50, 138);
+    color: rgb(50, 50, 138);
+}
+
+
+.dealers-btn2 {
+    padding: 15px 180px 20px 10px;
+    border-top: 1px solid rgb(227, 223, 223);
+    border-bottom: 1px solid rgb(227, 223, 223);
+    border-left: 4px solid transparent;
+    border-right: 0px;
+    background-color: transparent;
+    text-align: left;
+
+}
+
+.dealers-btn2:hover {
+    border-left: 4px solid rgb(50, 50, 138);
+    color: rgb(50, 50, 138);
+}
+
+
+/* #collapse-text {
+    margin-bottom: 5px !important;
+} */
+
+.product-collapse-btn {
+    text-align: left;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer-container {
+    margin-bottom: 15px;
+}
+
+
+
+/* THE LATEST FROM AUTO TRADER */
+
+#auto-header {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    /* text-align: center; */
+
+}
+
+.auto {
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.auto1 {
+    background-color: white;
+    width: 95%;
+    padding-bottom: 47px;
+    border: 1px solid rgb(184, 178, 178);
+    text-align: left;
+    font-weight: bold;
+    transition: all .25s ease-in-out !important;
+}
+
+.auto1:hover {
+    /* transition: ease-in-out; */
+    border: 1px solid rgb(55, 55, 151) !important;
+    transition: all .25s ease-in-out !important;
+}
+
+.auto2 {
+    background-color: white;
+    width: 95%;
+    padding-bottom: 22px;
+    border: 1px solid rgb(184, 178, 178);
+    /* margin-left: 50%; */
+    text-align: left;
+    font-weight: bold;
+}
+
+.auto3 {
+    background-color: white;
+    width: 95%;
+    border: 1px solid rgb(184, 178, 178);
+    /* margin-left: 50%; */
+    text-align: left;
+    font-weight: bold;
+}
+
+.auto4 {
+    background-color: white;
+    width: 95%;
+    padding-bottom: 45px;
+    border: 1px solid rgb(184, 178, 178);
+    /* margin-left: 50%; */
+    text-align: left;
+    font-weight: bold;
+}
+
+.auto1-txt {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
