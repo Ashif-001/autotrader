@@ -40,7 +40,6 @@ import bgcar3 from "../used_cars/used_car_img/mercedescar.png"
 import multicars from "./new_cars_img/multicar.png"
 import greycar from "./new_cars_img/grey.png"
 import greycar2 from  "./new_cars_img/leasingcar.png"
-import { CardBody } from 'bootstrap-react';
 
 function NewCar() {
 
