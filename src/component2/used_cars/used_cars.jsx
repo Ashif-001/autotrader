@@ -44,7 +44,6 @@ import smallcar1 from "./used_car_img/smallcar.png"
 import smallcar2 from "./used_car_img/electriccar.png"
 import smallcar3 from "./used_car_img/familycar.png"
 import smallcar4 from "./used_car_img/studentcar.png"
-import { CardBody } from "bootstrap-react";
 
 
 
